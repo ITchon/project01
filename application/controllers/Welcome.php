@@ -12,7 +12,8 @@ public function __construct()
     }
  
  public function index(){
-    $this->load->view('welcome_message');
+    $this->load->view('header');
+    $this->load->view('view_login');
  }
 
 
